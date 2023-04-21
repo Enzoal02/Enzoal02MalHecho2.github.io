@@ -1,0 +1,55 @@
+header {
+    background:#343541;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    color:white;
+    font-size: 20px;
+  }
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0; 
+    right: 0;
+    background-color: #343541;
+    color: white;
+    padding: 20px;
+  }
+
+  body {
+    background-color: #444654;
+    color: white;
+    
+  }
+a:link {
+    color:white;
+
+}
+
+a:visited {
+    color: white;
+
+}
+
+footer a:link{
+    color:white;
+
+}
+footer a:visited {
+    color: white;
+}
+
+
+nav div {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #343541;
+  border: 1px solid #000;
+  padding: 10px;
+  z-index: 9999;
+}
